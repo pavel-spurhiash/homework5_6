@@ -13,8 +13,6 @@ import com.gmail.pashasimonpure.util.RandomUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import javax.jws.soap.SOAPBinding;
-
 public class HomeWorkControllerImpl implements HomeWorkController {
 
     private static final Logger logger = LogManager.getLogger(MethodHandles.lookup().lookupClass());
