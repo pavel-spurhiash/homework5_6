@@ -1,13 +1,13 @@
 package com.gmail.pashasimonpure;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import com.gmail.pashasimonpure.controller.HomeWorkController;
+import com.gmail.pashasimonpure.controller.impl.HomeWorkControllerImpl;
+
+public class App {
+
+    public static void main(String[] args) {
+        HomeWorkController homeWorkController = HomeWorkControllerImpl.getInstance();
+        homeWorkController.runTask();
     }
+
 }
